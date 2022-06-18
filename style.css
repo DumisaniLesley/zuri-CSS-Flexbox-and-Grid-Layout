@@ -121,3 +121,43 @@ nav {
     color: hsla(0, 0%, 100%, 0.75);
     cursor: pointer;
 }
+
+@media screen and (max-width: 769px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .bright-orange {
+        background: hsl(31, 77%, 52%);
+        border-radius: 5px 5px 0px 0px;
+    }
+    
+    .dark-cyan {
+        background: hsl(184, 100%, 22%);
+    }
+    
+    .very-dark-cyan {
+        background: hsl(179, 100%, 13%);
+        border-radius: 0px 0px 5px 5px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .bright-orange {
+        background: hsl(31, 77%, 52%);
+        border-radius: 5px 5px 0px 0px;
+    }
+    
+    .dark-cyan {
+        background: hsl(184, 100%, 22%);
+    }
+    
+    .very-dark-cyan {
+        background: hsl(179, 100%, 13%);
+        border-radius: 0px 0px 5px 5px;
+    }
+}
